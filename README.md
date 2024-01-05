@@ -38,9 +38,7 @@ Find us on Docker Hub:
 
 
 ---
-[Data Availability](#data-availability)
-
-**Data availability**
+## **Data availability**
 
 Single cell multiome and snATAC-seq data generated for this manuscript (multiomes: 6, snATAC-seq: 5) and cellranger-arc v2.0 / cellranger-atac v2.1 gene and peak count matrices can be found here: </br>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232222
