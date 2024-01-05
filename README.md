@@ -127,7 +127,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 0. Align Visium datasets to refdata-gex-GRCh38-2020-A with spaceranger v2.0.0
 
-1. Integrate and annotate Visium datasets (spatial_kidney/step1_spatial.R)
+1. Integrate and annotate Visium datasets (spatial_kidney/step1_spatial.R) </br>
 [Visium barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/spatial_kidney/spatial_barcodes.csv) used for the analysis can be found in this github repository
 
 2. Find neighborhood-specific differentially expressed genes (spatial_kidney/step2_deg.R)
@@ -148,9 +148,11 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 5. Bin ATAC fragments into 1Mb bins with epiAneufinder. Exclude barcodes with < 10,000 fragments. Generate cytoband_counts10k.rds file for each library. (atac_aggr_prep_leuk/step2_atac_bin_fragments.R)
 
-6. Annotate barcodes using bridge transfer from a publicly-available leukocyte atlas (atac_aggr_prep_leuk/step3_atac_anno.R). https://www.10xgenomics.com/resources/datasets/pbmc-from-a-healthy-donor-granulocytes-removed-through-cell-sorting-10-k-1-standard-2-0-0
+6. Annotate barcodes using bridge transfer from a publicly-available leukocyte atlas (atac_aggr_prep_leuk/step3_atac_anno.R). https://www.10xgenomics.com/resources/datasets/pbmc-from-a-healthy-donor-granulocytes-removed-through-cell-sorting-10-k-1-standard-2-0-0 </br>
+7. [snRNA barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/rna_aggr_prep_leuk/rna_barcodes.csv) used for the analysis can be found in this github repository
 
-7. Count and normalize ATAC fragments for all chromosomes. Classify LOY using a density threshold model.  (atac_aggr_prep_leuk/step4_atac_loy.R)
+
+8. Count and normalize ATAC fragments for all chromosomes. Classify LOY using a density threshold model.  (atac_aggr_prep_leuk/step4_atac_loy.R)
 
 
 **Figures**
