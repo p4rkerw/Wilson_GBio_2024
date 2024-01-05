@@ -27,7 +27,7 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195460 <br/>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE172008 <br/>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200547 <br/>
 
-[single cell multiome barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/multi_aggr_prep_kidney/multi_barcodes.csv)
+
 [snATAC barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/atac_aggr_prep_kidney/atac_barcodes.csv) </br>
 [snRNA barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/rna_aggr_prep/kpmp/rna_barcodes.csv) used for the analysis can be found in this github repository
 
@@ -67,7 +67,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 4. Bin multiome ATAC fragments into 1Mb bins with epiAneufinder. Exclude barcodes with < 10,000 fragments. Generate cytoband_counts10k.rds file for each library. (multi_aggr_prep_kidney/step1_multi_bin_fragments.R)
 
-5. Run QC and preprocessing routing with Seurat and annotate barcodes (multi_aggr_prep_kidney/step2_multi_prep.R)
+5. Run QC and preprocessing routing with Seurat and annotate barcodes (multi_aggr_prep_kidney/step2_multi_prep.R). [single cell multiome barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/multi_aggr_prep_kidney/multi_barcodes.csv) can be found in this repository. 
 
 6. Count and normalize chrY RNA transcripts. Count and normalize ATAC fragments for all chromosomes. Classify LOY using a gaussian finite mixture model.  (multi_aggr_prep_kidney/step3_multi_loy.R)
 
