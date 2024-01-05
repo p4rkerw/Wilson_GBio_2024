@@ -37,13 +37,13 @@ Find us on Docker Hub:
 [p4rkerw@dockerhub](https://hub.docker.com/search?q=p4rkerw&type=image)
 <br/>
 
-Single cell multiome and snATAC-seq data generated for this manuscript (multiomes: 6, snATAC-seq: 5 CKD, 2 DKD) and cellranger-arc v2.0 / cellranger-atac v2.1 gene and peak count matrices for can be found here: </br>
+Single cell multiome and snATAC-seq data generated for this manuscript (multiomes: 6, snATAC-seq: 5) and cellranger-arc v2.0 / cellranger-atac v2.1 gene and peak count matrices can be found here: </br>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232222
 
 Visium spatial sequencing data generated for this manuscript can be found here: </br>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232431
 
-Sequencing data generated for previously-published kidney single cell multiomes (n=3)  can be found here:
+Sequencing data generated for previously-published kidney single cell multiomes (n=3) can be found here:
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE220289 <br/>
 
 Sequencing data generated for previously-published kidney snATAC-seq (n=17)  can be found here:
@@ -51,6 +51,9 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151302 <br/>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195460 <br/>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE172008 <br/>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200547 <br/>
+
+Sequencing data for previously-published leukocyte snATAC-seq (n=20) can be found here: </br>
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181064 </br>
 
 **Single cell multiome preprocessing and analysis workflow**
 1. Align and count each multiome library (multi_aggr_prep_kidney/cellranger/cellranger_arc_count.sh)
