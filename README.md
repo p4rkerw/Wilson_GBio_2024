@@ -35,6 +35,7 @@ Find us on Docker Hub:
 
 # Contents
  - [Data Availability](#data-availability) 
+ - [Single cell multiome preprocessing and analysis workflow](#Single cell multiome processing and analysis workflow)**
 
 
 ---
@@ -59,7 +60,7 @@ Sequencing data for previously-published leukocyte snATAC-seq (n=20) can be foun
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181064 </br>
 
 ---
-**Single cell multiome preprocessing and analysis workflow**
+## **Single cell multiome preprocessing and analysis workflow**
 1. Align and count each multiome library (multi_aggr_prep_kidney/cellranger/cellranger_arc_count.sh)
 Libraries were generated from a nuclear dissociation and aligned to refdata-cellranger-arc-GRCh38-2020-A-2.0.0, which can be downloaded from the 10X genomics website: https://support.10xgenomics.com/.
 
