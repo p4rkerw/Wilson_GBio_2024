@@ -1,0 +1,9 @@
+FROM p4rkerw/sctools:R4.1.3
+
+RUN R -e "install.packages(c('NB.MClust','mclust','ggside'))"
+
+RUN R -e "BiocManager::install('clusterProfiler')"
+RUN R -e "BiocManager::install('pathview')"
+RUN R -e "BiocManager::install('enrichplot')"
+
+RUN R -e "remotes::install_github('mojaveazure/seurat-disk')"

@@ -1,0 +1,46 @@
+FROM rocker/verse:4.2.3
+
+RUN R -e "install.packages('Seurat')"
+
+RUN R -e "BiocManager::install(c('GenomeInfoDb','EnsDb.Hsapiens.v86','EnsDb.Mmusculus.v79','Signac'))"
+
+RUN R -e "install.packages('devtools')"
+
+RUN R -e "BiocManager::install(c('SingleCellExperiment','clusterProfiler'))"
+
+RUN R -e "remotes::install_github('immunogenomics/harmony')"
+
+RUN apt-get update && apt-get install -y \
+	libhdf5-dev \
+	patch
+
+RUN R -e "install.packages('hdf5r')"
+
+RUN R -e "BiocManager::install(c('biovizBase','BSgenome.Hsapiens.UCSC.hg38','BSgenome.Mmusculus.UCSC.mm10','plyranges','ComplexHeatmap', 'BiocNeighbors'))"
+
+RUN R -e "install.packages(c('openxlsx','ggdendro'))"
+
+RUN \
+	cd /opt && \
+	git clone https://github.com/colomemaria/epiAneufinder
+
+RUN R -e "BiocManager::install(c('SpatialExperiment', 'scater','scran'))"
+
+RUN R -e "remotes::install_github('MarcElosua/SPOTlight')"
+
+RUN R -e "install.packages('scatterpie')"	
+	
+RUN R -e "remotes::install_github('chris-mcginnis-ucsf/DoubletFinder')"
+
+RUN R -e "remotes::install_github('mojaveazure/seurat-disk')"
+
+RUN R -e "remotes::install_github('sqjin/CellChat')"
+
+RUN R -e "install.packages(c('NB.MClust','mclust','ggside'))"
+
+RUN R -e "BiocManager::install('pathview')"
+
+RUN R -e "BiocManager::install('enrichplot')"
+
+RUN R -e "install.packages('vcfR')"
+
