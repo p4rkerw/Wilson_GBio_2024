@@ -128,10 +128,31 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 **Visium spatial preprocessing and analysis workflow**
 
+0. Align Visium datasets to refdata-gex-GRCh38-2020-A with spaceranger v2.0.0
+
+1. Integrate and annotate Visium datasets (spatial_kidney/step1_spatial.R)
+
+2. Find neighborhood-specific differentially expressed genes (spatial_kidney/step2_deg.R)
+
+3. Perform gene set enrichment analysis of differentially expressed genes for injured proximal tubule neighborhood (spatial_kidney/step3_gsea.R)
+
+4. Analyze secreted intercellular ligand-receptor interactions with CellChat (spatial_kidney/step4_cellchat.R)
+
 
 **snATAC leukocyte preprocessing and analysis workflow**  
+1. Align and count each ATAC library. Libraries were aligned to refdata-cellranger-arc-A-2.0.0 which can be downloaded from the 10X genomics website: https://support.10xgenomics.com/.
 
+2. Identify doublet barcodes with AMULET.
 
+3. Aggregate the snATAC libraries using the atac_aggr_prep_leuk/cellranger/atac_aggr_rccleuk.csv file (atac_aggr_prep_leuk/cellranger/cellranger_atac_aggr.sh)
+
+4. Run standard Signac QC on the aggregated snATAC data, perform batch effect correction with Harmony and remove doublet barcodes (atac_aggr_prep_kidney/step1_prep.R)
+
+5. Bin ATAC fragments into 1Mb bins with epiAneufinder. Exclude barcodes with < 10,000 fragments. Generate cytoband_counts10k.rds file for each library. (atac_aggr_prep_leuk/step2_atac_bin_fragments.R)
+
+6. Annotate barcodes using bridge transfer from a publicly-available leukocyte atlas (atac_aggr_prep_leuk/step3_atac_anno.R). https://www.10xgenomics.com/resources/datasets/pbmc-from-a-healthy-donor-granulocytes-removed-through-cell-sorting-10-k-1-standard-2-0-0
+
+7. Count and normalize ATAC fragments for all chromosomes. Classify LOY using a density threshold model.  (atac_aggr_prep_leuk/step4_atac_loy.R)
 
 
 **Figures**
