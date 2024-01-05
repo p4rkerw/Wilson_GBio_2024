@@ -1,0 +1,7 @@
+FROM p4rkerw/sctools:R4.1.3
+
+RUN R -e "BiocManager::install(c('ComplexHeatmap', 'BiocNeighbors'))"
+
+RUN R -e "remotes::install_github('sqjin/CellChat')"
+
+
