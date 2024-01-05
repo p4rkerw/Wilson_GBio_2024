@@ -37,7 +37,7 @@ Find us on Docker Hub:
  - [Data Availability](#data-availability)
  - [Single cell multiome preprocessing and analysis workflow](#Single-cell-multiome-preprocessing-and-analysis-workflow) 
  - [snATAC kidney preprocessing and analysis workflow](#snATAC-kidney-preprocessing-and-analysis-workflow)
- - [KPMP sc/snRNA-seq preprocessing and analysis workflow](#KPMP-sc/snRNA-seq-preprocessing-and-analysis-workflow)
+ - [KPMP scRNA-seq preprocessing and analysis workflow](#KPMP-scRNA-seq-preprocessing-and-analysis-workflow)
  - [Visium spatial preprocessing and analysis workflow](#Visium-spatial-preprocessing-and-analysis-workflow)
  - [snATAC leukocyte preprocessing and analysis workflow](#snATAC-leukocyte-preprocessing-and-analysis-workflow)
  - [Figures](#Figures)
@@ -122,7 +122,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 15. Run gene set enrichment analysis on differentially accessible regions that differentiate LOY vs XY cells in the proximal convoluted tubule and other cell types. (atac_aggr_prep_kidney/step8_gsea.R)
 ---
-## **KPMP sc/snRNA-seq preprocessing and analysis workflow**
+## **KPMP scRNA-seq preprocessing and analysis workflow**
 
 1. Download the KPMP dataset in h5seurat format from the KPMP website "c798e11b-bbde-45dd-bd91-487f27c93f8f_WashU-UCSD_HuBMAP_KPMP-Biopsy_10X-R_12032021.h5Seurat"
 
