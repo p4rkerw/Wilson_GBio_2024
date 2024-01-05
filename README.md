@@ -149,10 +149,9 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 5. Bin ATAC fragments into 1Mb bins with epiAneufinder. Exclude barcodes with < 10,000 fragments. Generate cytoband_counts10k.rds file for each library. (atac_aggr_prep_leuk/step2_atac_bin_fragments.R)
 
 6. Annotate barcodes using bridge transfer from a publicly-available leukocyte atlas (atac_aggr_prep_leuk/step3_atac_anno.R). https://www.10xgenomics.com/resources/datasets/pbmc-from-a-healthy-donor-granulocytes-removed-through-cell-sorting-10-k-1-standard-2-0-0 </br>
-7. [snATAC barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/atac_aggr_prep_leuk/atac_barcodes.csv) used for the analysis can be found in this github repository
+[snATAC barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/atac_aggr_prep_leuk/atac_barcodes.csv) used for the analysis can be found in this github repository
 
-
-8. Count and normalize ATAC fragments for all chromosomes. Classify LOY using a density threshold model.  (atac_aggr_prep_leuk/step4_atac_loy.R)
+7. Count and normalize ATAC fragments for all chromosomes. Classify LOY using a density threshold model.  (atac_aggr_prep_leuk/step4_atac_loy.R)
 
 
 **Figures**
