@@ -10,7 +10,7 @@ If you use any of the code or workflows in this repository please cite our manus
 ```
 
 ```
-The code associated with this publication has been deposited in [Zenodo](10.5281/zenodo.10463439) and has been released under an open source Apache License version 2.0 
+The code associated with this publication has been deposited in [Zenodo](https://zenodo.org/records/10463439) and has been released under an open source Apache License version 2.0 
 
 Welcome to our GitHub repository!  
 Here you will find analysis scripts for our manuscript where we use single cell sequencing to detect loss of Y chromosome (LOY) and other mosaic chromosomal alterations (mCA) in chronic kidney disease. Please contact the corresponding author, Dr. Parker Wilson, with questions or comments.  
