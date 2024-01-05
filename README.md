@@ -128,6 +128,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 0. Align Visium datasets to refdata-gex-GRCh38-2020-A with spaceranger v2.0.0
 
 1. Integrate and annotate Visium datasets (spatial_kidney/step1_spatial.R)
+[Visium barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/spatial_kidney/spatial_barcodes.csv) used for the analysis can be found in this github repository
 
 2. Find neighborhood-specific differentially expressed genes (spatial_kidney/step2_deg.R)
 
