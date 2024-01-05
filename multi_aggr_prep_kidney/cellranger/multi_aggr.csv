@@ -1,0 +1,10 @@
+library_id,atac_fragments,per_barcode_metrics,gex_molecule_info
+1-27Nx,cellranger_counts_dir/1-27Nx/outs/atac_fragments.tsv.gz,cellranger_counts_dir/1-27Nx/outs/per_barcode_metrics.csv,cellranger_counts_dir/1-27Nx/outs/gex_molecule_info.h5
+2-15Nx,cellranger_counts_dir/2-15Nx/outs/atac_fragments.tsv.gz,cellranger_counts_dir/2-15Nx/outs/per_barcode_metrics.csv,cellranger_counts_dir/2-15Nx/outs/gex_molecule_info.h5
+AJDL105,cellranger_counts_dir/AJDL105/outs/atac_fragments.tsv.gz,cellranger_counts_dir/AJDL105/outs/per_barcode_metrics.csv,cellranger_counts_dir/AJDL105/outs/gex_molecule_info.h5
+A2,cellranger_counts_dir/A2/outs/atac_fragments.tsv.gz,cellranger_counts_dir/A2/outs/per_barcode_metrics.csv,cellranger_counts_dir/A2/outs/gex_molecule_info.h5
+090922Nx,cellranger_counts_dir/090922Nx/outs/atac_fragments.tsv.gz,cellranger_counts_dir/090922Nx/outs/per_barcode_metrics.csv,cellranger_counts_dir/090922Nx/outs/gex_molecule_info.h5
+091422Nx,cellranger_counts_dir/091422Nx/outs/atac_fragments.tsv.gz,cellranger_counts_dir/091422Nx/outs/per_barcode_metrics.csv,cellranger_counts_dir/091422Nx/outs/gex_molecule_info.h5
+AIIM164,cellranger_counts_dir/AIIM164/outs/atac_fragments.tsv.gz,cellranger_counts_dir/AIIM164/outs/per_barcode_metrics.csv,cellranger_counts_dir/AIIM164/outs/gex_molecule_info.h5
+AIL5160,cellranger_counts_dir/AIL5160/outs/atac_fragments.tsv.gz,cellranger_counts_dir/AIL5160/outs/per_barcode_metrics.csv,cellranger_counts_dir/AIL5160/outs/gex_molecule_info.h5
+AJDV174,cellranger_counts_dir/AJDV174/outs/atac_fragments.tsv.gz,cellranger_counts_dir/AJDV174/outs/per_barcode_metrics.csv,cellranger_counts_dir/AJDV174/outs/gex_molecule_info.h5

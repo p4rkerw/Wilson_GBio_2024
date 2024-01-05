@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/home/parkerw/multiFastq/AIL5160,AIL5160_RNA_atac,Chromatin Accessibility
+/home/parkerw/multiFastq/AIL5160,AIL5160_RNA,Gene Expression

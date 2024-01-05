@@ -1,0 +1,6 @@
+fastqs,sample,library_type
+/home/parkerw/multiFastq/A2,a2-5,Gene Expression
+/home/parkerw/multiFastq/A2,a2-6,Gene Expression
+/home/parkerw/multiFastq/A2,a2-8,Gene Expression
+/home/parkerw/multiFastq/A2,a2-6_atac,Chromatin Accessibility
+/home/parkerw/multiFastq/A2,a2-8_atac,Chromatin Accessibility

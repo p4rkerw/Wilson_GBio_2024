@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/home/parkerw/multiFastq/AJDV174,AJDV174_RNA_atac,Chromatin Accessibility
+/home/parkerw/multiFastq/AJDV174,AJDV174_RNA,Gene Expression

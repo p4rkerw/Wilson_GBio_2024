@@ -1,0 +1,3 @@
+fastqs,sample,library_type
+/home/parkerw/multiFastq/AIIM164,AIIM164_RNA_atac,Chromatin Accessibility
+/home/parkerw/multiFastq/AIIM164,AIIM164_RNA,Gene Expression
