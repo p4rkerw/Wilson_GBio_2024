@@ -31,7 +31,16 @@ Find us on Twitter:
 <br/><br/>
 Find us on Docker Hub:  
 [p4rkerw@dockerhub](https://hub.docker.com/search?q=p4rkerw&type=image)
-<br/>
+<br/><br/>
+
+# Contents
+ - [Data Availability](#data-availability) 
+
+
+---
+[Data Availability](#data-availability)
+
+**Data availability**
 
 Single cell multiome and snATAC-seq data generated for this manuscript (multiomes: 6, snATAC-seq: 5) and cellranger-arc v2.0 / cellranger-atac v2.1 gene and peak count matrices can be found here: </br>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE232222
@@ -51,6 +60,7 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200547 <br/>
 Sequencing data for previously-published leukocyte snATAC-seq (n=20) can be found here: </br>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE181064 </br>
 
+---
 **Single cell multiome preprocessing and analysis workflow**
 1. Align and count each multiome library (multi_aggr_prep_kidney/cellranger/cellranger_arc_count.sh)
 Libraries were generated from a nuclear dissociation and aligned to refdata-cellranger-arc-GRCh38-2020-A-2.0.0, which can be downloaded from the 10X genomics website: https://support.10xgenomics.com/.
@@ -78,7 +88,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 12. Run chromVAR to estimate TF motif activities (multi_aggr_prep_kidney/step7_chromvar.R)
 
 13. Find differentially activity of TF motifs with chromVAR for LOY vs XY cells for all cell types (multi_aggr_prep_kidney/analysis/find_chromvar.R)
-
+---
 **snATAC kidney preprocessing and analysis workflow**  
 1. Align and count each ATAC library (atac_aggr_prep_kidney/cellranger/cellranger_atac_count.sh)  
 Libraries were generated from a nuclear dissociation and aligned to refdata-cellranger-arc-A-2.0.0 which can be downloaded from the 10X genomics website: https://support.10xgenomics.com/. 
@@ -107,7 +117,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 14. Find differentially activity of TF motifs with chromVAR for LOY vs XY cells for all cell types (atac_aggr_prep_kidney/analysis/find_chromvar.R)
 
 15. Run gene set enrichment analysis on differentially accessible regions that differentiate LOY vs XY cells in the proximal convoluted tubule and other cell types. (atac_aggr_prep_kidney/step8_gsea.R)
-
+---
 **KPMP sc/snRNA-seq preprocessing and analysis workflow**
 
 1. Download the KPMP dataset in h5seurat format from the KPMP website "c798e11b-bbde-45dd-bd91-487f27c93f8f_WashU-UCSD_HuBMAP_KPMP-Biopsy_10X-R_12032021.h5Seurat"
@@ -121,7 +131,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 5. Project the single cell multiome atlas onto the KPMP atlas to harmonize cell type annotations (rna_aggr_prep_kidney/step3_harmonize.R)
 
-
+---
 **Visium spatial preprocessing and analysis workflow**
 
 0. Align Visium datasets to refdata-gex-GRCh38-2020-A with spaceranger v2.0.0
@@ -135,7 +145,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 4. Analyze secreted intercellular ligand-receptor interactions with CellChat (spatial_kidney/step4_cellchat.R)
 
-
+---
 **snATAC leukocyte preprocessing and analysis workflow**  
 1. Align and count each ATAC library. Libraries were aligned to refdata-cellranger-arc-A-2.0.0 which can be downloaded from the 10X genomics website: https://support.10xgenomics.com/.
 
@@ -152,7 +162,7 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 7. Count and normalize ATAC fragments for all chromosomes. Classify LOY using a density threshold model.  (atac_aggr_prep_leuk/step4_atac_loy.R)
 
-
+---
 **Figures**
 
 Scripts for generating figures in the manuscript.
