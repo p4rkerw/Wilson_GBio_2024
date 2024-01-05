@@ -34,8 +34,9 @@ Find us on Docker Hub:
 <br/><br/>
 
 # Contents
- - [Data Availability](#data-availability) 
- - [Single cell multiome preprocessing and analysis workflow](#Single cell multiome processing and analysis workflow)**
+ - [Data Availability](#data-availability)
+ - [Single cell multiome preprocessing and analysis workflow](#Single-cell-multiome-preprocessing-and-analysis-workflow) 
+ - [Single cell multiome preprocessing and analysis workflow](#Single-cell-multiome-preprocessing-and-analysis-workflow)
 
 
 ---
