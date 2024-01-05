@@ -27,10 +27,6 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195460 <br/>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE172008 <br/>
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE200547 <br/>
 
-
-[snRNA barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/rna_aggr_prep/kpmp/rna_barcodes.csv) used for the analysis can be found in this github repository
-
-
 Welcome to our GitHub repository!  
 Here you will find analysis scripts for our manuscript where we use single cell sequencing to detect loss of Y chromosome (LOY) and other mosaic chromosomal alterations (mCA) in chronic kidney disease. Please contact the corresponding author, Dr. Parker Wilson, with questions or comments.  
 <br/>
@@ -117,7 +113,8 @@ Libraries were generated from a nuclear dissociation and aligned to refdata-cell
 
 1. Download the KPMP dataset in h5seurat format from the KPMP website "c798e11b-bbde-45dd-bd91-487f27c93f8f_WashU-UCSD_HuBMAP_KPMP-Biopsy_10X-R_12032021.h5Seurat"
 
-2. Run QC and preprocessing routing with Seurat, predict cell types using label transfer from a previously-published snRNA-seq atlas, perform batch effect correction with Harmony and annotate barcodes. Count and normalize chrY transcripts and assign LOY using density threshold model (rna_aggr_prep_kidney/step1_kpmp.R)
+2. Run QC and preprocessing routing with Seurat, predict cell types using label transfer from a previously-published snRNA-seq atlas, perform batch effect correction with Harmony and annotate barcodes. Count and normalize chrY transcripts and assign LOY using density threshold model (rna_aggr_prep_kidney/step1_kpmp.R) </br>
+[snRNA barcodes](https://github.com/p4rkerw/Wilson_GBio_2024/blob/main/rna_aggr_prep/kpmp/rna_barcodes.csv) used for the analysis can be found in this github repository
 
 3. Find differentially expressed genes that differentiate LOY vs XY cells (rna_aggr_prep_kidney/analysis/find_deg.R)
 
