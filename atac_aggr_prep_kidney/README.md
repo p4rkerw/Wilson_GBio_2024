@@ -1,4 +1,4 @@
-# scripts for analyzing previously published snATAC-seq kidney datasets
+scripts for downloading previously published snATAC-seq kidney datasets
 
 ```
 # url accessions for downloading accession files
