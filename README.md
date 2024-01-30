@@ -7,10 +7,12 @@ E. Dixon<sup>2</sup>, Benjamin D. Humphreys<sup>2,3</sup>__
 <sup>3</sup> Department of Developmental Biology, Washington University in St. Louis, St. Louis, MO, USA </br>
 
 Welcome to our GitHub repository!  
-Here you will find analysis scripts for our manuscript where we use single cell sequencing to detect loss of Y chromosome (LOY) and other mosaic chromosomal alterations (mCA) in chronic kidney disease. Please contact the corresponding author, Dr. Parker Wilson, with questions or comments. If you use any of the code or workflows in this repository please cite our manuscript in Genome Biology [link]()
+Here you will find analysis scripts for our manuscript where we use single cell sequencing to detect loss of Y chromosome (LOY) and other mosaic chromosomal alterations (mCA) in chronic kidney disease. Please contact the corresponding author, Dr. Parker Wilson, with questions or comments. If you use any of the code or workflows in this repository please cite our manuscript in Genome Biology [link](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03173-2)
 
 ```
-
+Wilson, P.C., Verma, A., Yoshimura, Y. et al.
+Mosaic loss of Y chromosome is associated with aging and epithelial injury in chronic kidney disease.
+Genome Biol 25, 36 (2024). https://doi.org/10.1186/s13059-024-03173-2
 ```
 The code associated with this publication has been deposited in [Zenodo](https://zenodo.org/records/10463439) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10463470.svg)](https://zenodo.org/records/10463439) </br>
 It has been released under an open source Apache License version 2.0
